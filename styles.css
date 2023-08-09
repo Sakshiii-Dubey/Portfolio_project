@@ -1,0 +1,172 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+img {
+    width: 30%;
+    height: 70%;
+
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+.about {
+    text-align: center;
+}
+.height{
+    text-align: center;
+}
+.edu {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 23px;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+.left {
+    font-size: 1.5em;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+    margin: 70px 0;
+}
+
+.rightSection img {
+    width: 300px;
+    margin: 50px 0;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+    } */
+ul {
+    list-style: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.contents {
+    text-align: center;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+/* 
+ .footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff; 
+} 
+
+ @media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}  */
+
+.social-links img{ background-color: rgba(255, 255, 255, 0.2);
+    padding: 10%;
+    border-radius: 50%;
+    width: 30px;
+    height:30px;
+}
